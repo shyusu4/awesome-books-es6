@@ -1,5 +1,6 @@
 import Book from './modules/book.js';
 import Nav from './modules/nav.js';
+import getDateTime from './modules/datetime.js';
 const bookStorage = [];
 
 class CreateBook {
@@ -86,7 +87,11 @@ form.addEventListener('submit', (e) => {
   });
 });
 
-CreateBook.getLocalStorage();
-Nav.navList1();
-Nav.navList2();
-Nav.navList3();
+const onPageLoad = () => {
+  CreateBook.getLocalStorage();
+  Nav.navList1();
+  Nav.navList2();
+  Nav.navList3();
+  getDateTime();
+};
+window.onload = onPageLoad();

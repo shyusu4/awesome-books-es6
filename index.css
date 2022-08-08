@@ -10,12 +10,16 @@
 }
 
 main {
-  height: 75vh;
+  height: 73vh;
   text-align: center;
 }
 
 section {
-  margin: 3rem;
+  margin: 4rem 3rem 3rem 3rem;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 .hide {
@@ -63,6 +67,12 @@ section {
   color: black;
   font-weight: bold;
   font-size: 16px;
+}
+
+.date-time {
+  float: right;
+  font-size: 1.2rem;
+  margin: 1rem 1rem 0 0;
 }
 
 footer {
