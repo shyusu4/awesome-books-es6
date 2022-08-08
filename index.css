@@ -75,6 +75,51 @@ h1 {
   margin: 1rem 1rem 0 0;
 }
 
+.book-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border: solid 3px black;
+  border-radius: 5px;
+  margin: 1.5rem 25rem 15px 25rem;
+}
+
+.books-form,
+.contact-container,
+.books-container {
+  margin: 2rem;
+}
+
+input {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+}
+
+.remove-btn,
+.add-btn {
+  border: none;
+  border-radius: 5%;
+  padding: 5px 15px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  height: 30px;
+  transition-duration: 0.4s;
+}
+
+.remove-btn:hover,
+.add-btn:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
 footer {
   position: relative;
   width: 100%;
