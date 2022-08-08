@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  height: 73vh;
+  text-align: center;
+}
+
+section {
+  margin: 4rem 3rem 3rem 3rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 3px black;
+}
+
+.nav-branding {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: italic;
+  align-self: center;
+  color: black;
+  margin: 1rem;
+}
+
+.nav-branding span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-menu {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+  margin-right: 1rem;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.nav-link {
+  margin: 0 9px;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date-time {
+  float: right;
+  font-size: 1.2rem;
+  margin: 1rem 1rem 0 0;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border: solid 3px black;
+  border-radius: 5px;
+  margin: 1.5rem 25rem 15px 25rem;
+}
+
+.books-form,
+.contact-container,
+.books-container {
+  margin: 2rem;
+}
+
+input {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+}
+
+.remove-btn,
+.add-btn {
+  border: none;
+  border-radius: 5%;
+  padding: 5px 15px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  height: 30px;
+  transition-duration: 0.4s;
+}
+
+.remove-btn:hover,
+.add-btn:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  border-top: solid 3px black;
+}
+
+.footer-p {
+  font-weight: bold;
+  margin: 1rem;
+}
