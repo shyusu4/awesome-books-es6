@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Awesome Books: with ES6
 > This project is a restructure of a previously completed pair-programming project ("Awesome Books"). The goal is to make it more organized by using modules and the ES6 syntax.
-
+![Website preview](./mockup.png)
 ## Live Demo
 
 [Live](https://shyusu4.github.io/Awesome-Books-ES6/)
