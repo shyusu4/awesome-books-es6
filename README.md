@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Awesome Books: with ES6
-> This project is a restructure of a previously completed pair-programming project - 'Awesome books'. The goal is to make it more organized by using modules and the ES6 syntax.
+> This project is a restructure of a previously completed pair-programming project ("Awesome Books"). The goal is to make it more organized by using modules and the ES6 syntax.
 
 ## Live Demo
 
@@ -11,7 +11,6 @@
 - HTML/CSS
 - JavaScript
 - Luxon
-- npm
 
 ## Getting Started
 
@@ -27,7 +26,8 @@
 👤 Shakhrizoda Yusupova
 
 - GitHub: [@shyusu4](https://github.com/shyusu4)
-- LinkedIn: [Shakhrizoda Yusupova](https://www.linkedin.com/in/shakhrizoda-yusupova-789253229/?originalSubdomain=uz)
+- Twitter: [@shyusu4](https://twitter.com/shyusu4)
+- LinkedIn: [Shakhrizoda Yusupova](https://www.linkedin.com/in/shyusu4/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
